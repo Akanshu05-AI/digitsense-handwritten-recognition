@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch checkpoints and raw datasets (large binaries)
+*.pt
+*.pth
+data/raw/
+data/processed/
+
+# Track trained model weights (each < 2MB, total ~8.8MB)
+!models/checkpoints/*.pt
+!models/checkpoints/*.onnx
+!models/checkpoints/*.joblib
+!models/checkpoints/README.md
+
+# IDE and Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local state
+.streamlit/

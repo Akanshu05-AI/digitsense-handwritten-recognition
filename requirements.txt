@@ -1,0 +1,32 @@
+# DigitSense: Handwritten Digit and Character Recognition System
+# Core Dependencies
+
+# Numerical & Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+scikit-image>=0.21.0
+onnxruntime>=1.15.0
+onnx>=1.15.0
+onnxscript>=0.7.0
+
+# Classical Machine Learning & Metrics
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# User Interface
+streamlit>=1.30.0
+streamlit-drawable-canvas>=0.9.0
+
+# Testing & Code Quality
+pytest>=7.4.0
